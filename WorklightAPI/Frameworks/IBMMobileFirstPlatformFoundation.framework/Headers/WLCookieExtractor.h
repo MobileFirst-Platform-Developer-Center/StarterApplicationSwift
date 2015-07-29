@@ -25,7 +25,6 @@
 
 }
 
--(id)initWithWebView:(UIWebView *)webview;
 -(NSDictionary *)getCookies;
 
 

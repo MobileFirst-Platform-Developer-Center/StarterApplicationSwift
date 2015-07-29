@@ -137,6 +137,7 @@ typedef enum {
  */
 -(void) metadata:(NSDictionary*) metadata fatal: (NSString*) text, ...;
 
+
 //Static methods
 
 /**

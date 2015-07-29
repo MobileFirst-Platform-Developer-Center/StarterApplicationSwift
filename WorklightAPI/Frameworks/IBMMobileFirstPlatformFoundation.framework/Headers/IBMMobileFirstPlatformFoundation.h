@@ -37,13 +37,14 @@ FOUNDATION_EXPORT const unsigned char IBMMobileFirstPlatformFoundationVersionStr
 #import <IBMMobileFirstPlatformFoundation/BaseDeviceAuthChallengeHandler.h>
 #import <IBMMobileFirstPlatformFoundation/BaseProvisioningChallengeHandler.h>
 #import <IBMMobileFirstPlatformFoundation/ChallengeHandler.h>
-#import <IBMMobileFirstPlatformFoundation/JSONStore.h>
+#import <IBMMobileFirstPlatformFoundation/JSONStoreQueryOptions.h>
+#import <IBMMobileFirstPlatformFoundation/JSONStoreQueryPart.h>
 #import <IBMMobileFirstPlatformFoundation/JSONStoreAddOptions.h>
 #import <IBMMobileFirstPlatformFoundation/JSONStoreCollection.h>
 #import <IBMMobileFirstPlatformFoundation/JSONStoreOpenOptions.h>
-#import <IBMMobileFirstPlatformFoundation/JSONStoreQueryOptions.h>
-#import <IBMMobileFirstPlatformFoundation/JSONStoreQueryPart.h>
+#import <IBMMobileFirstPlatformFoundation/JSONStore.h>
 #import <IBMMobileFirstPlatformFoundation/OCLogger.h>
+#import <IBMMobileFirstPlatformFoundation/OCLogger+Constants.h>
 #import <IBMMobileFirstPlatformFoundation/WLAcquisitionFailureCallbacksConfiguration.h>
 #import <IBMMobileFirstPlatformFoundation/WLAcquisitionPolicy.h>
 #import <IBMMobileFirstPlatformFoundation/WLAnalytics.h>
@@ -87,7 +88,6 @@ FOUNDATION_EXPORT const unsigned char IBMMobileFirstPlatformFoundationVersionStr
 #import <IBMMobileFirstPlatformFoundation/WLResponseListener.h>
 #import <IBMMobileFirstPlatformFoundation/WLSecurityUtils.h>
 #import <IBMMobileFirstPlatformFoundation/WLSimpleDataSharing.h>
-#import <IBMMobileFirstPlatformFoundation/WLSwiftBridgingHeader.h>
 #import <IBMMobileFirstPlatformFoundation/WLTriggerCallback.h>
 #import <IBMMobileFirstPlatformFoundation/WLTriggersConfiguration.h>
 #import <IBMMobileFirstPlatformFoundation/WLTrusteer.h>

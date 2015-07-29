@@ -34,6 +34,9 @@
 @property (strong) NSMutableArray *subscribedTags;
 @property (strong) NSString *tokenFromClient;
 @property  BOOL isTokenUpdatedOnServer;
+@property (strong) NSString *appUserId;
+@property (strong) NSString *loginId;
+@property (strong) NSString *serverUserId;
 
 +(WLPush *) sharedInstance;
 
@@ -50,7 +53,7 @@
  * @param alias Mandatory string. A short ID that you use to identify the event source when the push notification arrives. You can provide a short alias, rather than the full names of the adapter and event source. This action frees space in the notification text, which is usually limited in length.
  * @param adapter Mandatory string. The name of the adapter that contains the event source.
  * @param eventSource Mandatory string. The name of the event source.
- * @param eventSourceListener Mandatory listener class. When a notification arrives, the EventSourceListener.onReceive method is called.
+ * @param eventSourceListener Mandatory listener class.
  **/
 -(void) registerEventSourceCallback:(NSString *)alias :(NSString *)adapter :(NSString *)eventsource :(id <WLEventSourceListener>)eventSourceListener;
 
@@ -123,6 +126,11 @@
  **/
 -(BOOL) isTagSubscribed :(NSString *)tagName;
 
+
+-(void) getTags : (id <WLDelegate>)responseListener;
+
+-(void) unregisterDevice : (id <WLDelegate>) responseListener;
+
 /**
  * This method checks whether push notification is supported.
  *
@@ -133,5 +141,6 @@
 -(void) internalSubscribe :(WLPushOptions *)options :(BOOL )isTag :(NSString *)name :(id <WLDelegate>)responseListener;
 
 -(void) internalUnsubscribe :(BOOL )isTag :(NSString *)name :(id <WLDelegate>)responseListener;
+
 
 @end

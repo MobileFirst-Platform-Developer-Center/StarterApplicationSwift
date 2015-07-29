@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/IBMMobileFirstPlatformFoundation.h</key>
 		<data>
-		FcDN05do2glOKwQqjtj+auwA1mc=
+		usWoaaNSknr+JxKrmn3IHXK6Gx0=
 		</data>
 		<key>Headers/JSONStore.h</key>
 		<data>
@@ -86,11 +86,15 @@
 		</data>
 		<key>Headers/JSONStoreQueryPart.h</key>
 		<data>
-		60w7owzOCmvoKpU5yJzSH2BlvB4=
+		hwLyXnZVu6yqglHYhymveYD32mU=
+		</data>
+		<key>Headers/OCLogger+Constants.h</key>
+		<data>
+		s9g6mh4yOYznG0hkbRUNn7iyVd8=
 		</data>
 		<key>Headers/OCLogger.h</key>
 		<data>
-		QybCDz7/2/+KGwaOl6h6yVtum9U=
+		7MXMhnBOO8vukYwPXQjIkJGIG7E=
 		</data>
 		<key>Headers/WLAcquisitionFailureCallbacksConfiguration.h</key>
 		<data>
@@ -110,7 +114,7 @@
 		</data>
 		<key>Headers/WLAuthorizationManager.h</key>
 		<data>
-		MXqagiA22MNz9/dESKc3s9K5d54=
+		jE2Se2SIPT1C/kKGClQem9pRuAA=
 		</data>
 		<key>Headers/WLCallbackFactory.h</key>
 		<data>
@@ -126,7 +130,7 @@
 		</data>
 		<key>Headers/WLClient.h</key>
 		<data>
-		t/4auG5VzIrtRoKhWEQXwYoeX4U=
+		CtiMVwgyLopO+YR4Xl6nHuexC5s=
 		</data>
 		<key>Headers/WLConfidenceLevel.h</key>
 		<data>
@@ -134,7 +138,7 @@
 		</data>
 		<key>Headers/WLCookieExtractor.h</key>
 		<data>
-		kxE2ccgiw0/mLrrAIlvi7yWX7rI=
+		rHoLeNNDXatFZ6VCFdINnaBBkFA=
 		</data>
 		<key>Headers/WLCoordinate.h</key>
 		<data>
@@ -238,7 +242,7 @@
 		</data>
 		<key>Headers/WLPush.h</key>
 		<data>
-		Rlk3LHXvyQZQD4PfS3ADgiLlotA=
+		4Fmq/OdbhijuHs4AgSGP1JukQg0=
 		</data>
 		<key>Headers/WLPushOptions.h</key>
 		<data>
@@ -246,7 +250,7 @@
 		</data>
 		<key>Headers/WLResourceRequest.h</key>
 		<data>
-		0/C+yU86wOEZ7OkExxEkcIfPCWY=
+		W5hrf3xb8Zg/8TuaOogMcvmdJcw=
 		</data>
 		<key>Headers/WLResponse.h</key>
 		<data>
@@ -263,10 +267,6 @@
 		<key>Headers/WLSimpleDataSharing.h</key>
 		<data>
 		erF9Iz7DPnPBvqdtkg5EsYze3o8=
-		</data>
-		<key>Headers/WLSwiftBridgingHeader.h</key>
-		<data>
-		DsxUVs6EpEyYXCYw/AKoQ1yM5aE=
 		</data>
 		<key>Headers/WLTriggerCallback.h</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0cp00Xz99+XH6TPmn1Qb+/8SqzU=
+		ko5gbjm2+ce98Cqf1OeWvqUjTIU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -417,7 +417,7 @@
 		</data>
 		<key>Headers/IBMMobileFirstPlatformFoundation.h</key>
 		<data>
-		FcDN05do2glOKwQqjtj+auwA1mc=
+		usWoaaNSknr+JxKrmn3IHXK6Gx0=
 		</data>
 		<key>Headers/JSONStore.h</key>
 		<data>
@@ -441,11 +441,15 @@
 		</data>
 		<key>Headers/JSONStoreQueryPart.h</key>
 		<data>
-		60w7owzOCmvoKpU5yJzSH2BlvB4=
+		hwLyXnZVu6yqglHYhymveYD32mU=
+		</data>
+		<key>Headers/OCLogger+Constants.h</key>
+		<data>
+		s9g6mh4yOYznG0hkbRUNn7iyVd8=
 		</data>
 		<key>Headers/OCLogger.h</key>
 		<data>
-		QybCDz7/2/+KGwaOl6h6yVtum9U=
+		7MXMhnBOO8vukYwPXQjIkJGIG7E=
 		</data>
 		<key>Headers/WLAcquisitionFailureCallbacksConfiguration.h</key>
 		<data>
@@ -465,7 +469,7 @@
 		</data>
 		<key>Headers/WLAuthorizationManager.h</key>
 		<data>
-		MXqagiA22MNz9/dESKc3s9K5d54=
+		jE2Se2SIPT1C/kKGClQem9pRuAA=
 		</data>
 		<key>Headers/WLCallbackFactory.h</key>
 		<data>
@@ -481,7 +485,7 @@
 		</data>
 		<key>Headers/WLClient.h</key>
 		<data>
-		t/4auG5VzIrtRoKhWEQXwYoeX4U=
+		CtiMVwgyLopO+YR4Xl6nHuexC5s=
 		</data>
 		<key>Headers/WLConfidenceLevel.h</key>
 		<data>
@@ -489,7 +493,7 @@
 		</data>
 		<key>Headers/WLCookieExtractor.h</key>
 		<data>
-		kxE2ccgiw0/mLrrAIlvi7yWX7rI=
+		rHoLeNNDXatFZ6VCFdINnaBBkFA=
 		</data>
 		<key>Headers/WLCoordinate.h</key>
 		<data>
@@ -593,7 +597,7 @@
 		</data>
 		<key>Headers/WLPush.h</key>
 		<data>
-		Rlk3LHXvyQZQD4PfS3ADgiLlotA=
+		4Fmq/OdbhijuHs4AgSGP1JukQg0=
 		</data>
 		<key>Headers/WLPushOptions.h</key>
 		<data>
@@ -601,7 +605,7 @@
 		</data>
 		<key>Headers/WLResourceRequest.h</key>
 		<data>
-		0/C+yU86wOEZ7OkExxEkcIfPCWY=
+		W5hrf3xb8Zg/8TuaOogMcvmdJcw=
 		</data>
 		<key>Headers/WLResponse.h</key>
 		<data>
@@ -618,10 +622,6 @@
 		<key>Headers/WLSimpleDataSharing.h</key>
 		<data>
 		erF9Iz7DPnPBvqdtkg5EsYze3o8=
-		</data>
-		<key>Headers/WLSwiftBridgingHeader.h</key>
-		<data>
-		DsxUVs6EpEyYXCYw/AKoQ1yM5aE=
 		</data>
 		<key>Headers/WLTriggerCallback.h</key>
 		<data>

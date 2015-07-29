@@ -279,4 +279,5 @@
 -(void) searchField:(NSString*) searchField
          notBetween:(NSNumber*) number1
                 and:(NSNumber*) number2;
+
 @end

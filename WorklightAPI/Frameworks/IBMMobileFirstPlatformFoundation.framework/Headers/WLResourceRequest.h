@@ -24,6 +24,14 @@
 */
 @interface WLResourceRequest : NSObject
 
+typedef NS_ENUM(NSUInteger, WLAFHTTPClientParameterEncoding ) {
+    WLFormURLParameterEncoding,
+    WLJSONParameterEncoding,
+    WLPropertyListParameterEncoding,
+};
+
+
+
 /**
  *
  * GET HTTP method constant

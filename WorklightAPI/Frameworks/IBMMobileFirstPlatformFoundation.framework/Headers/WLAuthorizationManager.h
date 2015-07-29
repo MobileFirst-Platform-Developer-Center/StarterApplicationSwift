@@ -73,6 +73,7 @@ extern NSString * const ERROR_OAUTH_CANCELED;
 /**
  *  Sets the authorization policy that defines the way the application handles storing of authorization access tokens.
  *
+ *  @deprecated In MobileFirst Platform 7.1, persisting authorization headers on the client side has no effect, since the MobileFirst server persists the security data across sessions.
  *  @param policy Persistence policy.
  *  The policy can be one of the following:
  *	<ul>
