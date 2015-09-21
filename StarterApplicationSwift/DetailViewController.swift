@@ -32,7 +32,8 @@ class DetailViewController: UIViewController, UIWebViewDelegate {
         self.title = self.detailItem["title"] as? String
         
         let url = self.detailItem.objectForKey("link") as! String
-        let myUrl = NSURL(string: url.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!)!
+        let myUrl = NSURL(string:url.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!)!
+
         let request = NSURLRequest(URL: myUrl)
         self.webView.loadRequest(request)
     }

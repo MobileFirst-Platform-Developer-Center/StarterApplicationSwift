@@ -76,7 +76,7 @@ class MasterViewController: UITableViewController, WLDelegate {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) 
         
         let item = self.items[indexPath.row] as! NSDictionary
         cell.textLabel?.text = item.objectForKey("title") as? String
@@ -96,7 +96,7 @@ class MasterViewController: UITableViewController, WLDelegate {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "showDetail"){
-            let indexPath = self.tableView.indexPathForSelectedRow()!
+            let indexPath = self.tableView.indexPathForSelectedRow!
             let item = self.items[indexPath.row] as! NSDictionary
             let destinationVC = segue.destinationViewController as? DetailViewController
             destinationVC?.setDetail(item)
